@@ -1,0 +1,18 @@
+\section{\color{airforceblue}Leadership \& Community Involvement}
+\vspace{-5pt}
+\resumeSubheading
+  {Sigma Lambda Beta International Fraternity, Inc.}{Milwaukee, WI}{President}
+  {April 2023 -  May 2024}
+\resumeItemListStart
+  \resumeItem{Founded and organized the Fiesta de la Calle San Sebastian, a cultural celebration highlighting Puerto Rican heritage and community for both Puerto Rican and non-Puerto Rican students at Marquette University.}
+  \resumeItem{Partnered with Marquette’s Center for Engagement and Inclusion and Campus Ministry to organize community-wide cultural initiatives such as Día de los Muertos and heritage showcases.}
+  \resumeItem{Recognized with multiple awards for leadership, event innovation, and community impact, including \textit{Fraternity Member of the Year}, \textit{Spirit of Marquette – Organization of the Year}, and the \textit{Rev. Andrew J. Thon, S.J. Award for Leadership}.}
+\resumeItemListEnd
+\resumeSubheading
+  {Soundclub Live}{Milwaukee, WI}
+  {Event Coordinator \& IT Lead}{August 2025 – Present}
+\resumeItemListStart
+  \resumeItem{Develop partnerships with local venues to host “venue takeovers” during off-peak hours, increasing partner business traffic while expanding Sound-club Live’s reach.}
+  \resumeItem{Oversee audiovisual logistics and coordinate A/V technicians to ensure great sound and equipment setup for each event.}
+  \resumeItem{Conduct data-driven analytics to measure event attendance, audience retention, and social media engagement, optimizing posting schedules and event timing for maximum participation.}
+\resumeItemListEnd
