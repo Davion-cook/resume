@@ -1,0 +1,132 @@
+\section{\color{airforceblue}WORK EXPERIENCE}
+
+\resumeSubHeadingListStart
+
+
+\resumeSubheading
+
+{Teksystem}
+{Mount Pleasant, WI} 
+{Data center Technician}
+{November 2025 – Present}
+
+\vspace{2.5pt}
+
+\resumeItemListStart
+
+\setlength{\itemsep}{5pt}
+\setlength{\parskip}{2pt}
+\setlength{\parsep}{2pt}
+\setlength{\topsep}{2pt}
+
+\resumeItem{Performed break-fix troubleshooting and hardware replacements in a  data center environment to support uptime and operational continuity}
+\resumeItem{Installed, routed, and validated structured cabling (fiber optic and copper), ensuring proper labeling, documentation, and cable management compliance}
+\resumeItem{Documented incident reports and break-fix procedures in internal ticketing systems, capturing troubleshooting steps, resolution actions, and escalation notes to ensure clear handoff and repeatable solutions for future technicians}
+\resumeItem{Assisted Critical Environment Technicians with mechanical/electrical support tasks, including fill drain kit operations, energized power whip verification, and equipment labeling to ensure safe and reliable power delivery for server infrastructure}
+
+\resumeItemListEnd  
+
+ %----------------------
+
+\resumeSubheading
+
+{Pufferfish}
+{Milwaukee, WI} 
+{Assistant Bar Manager}
+{November 2023 - Present}
+
+\vspace{6pt}
+
+\resumeItemListStart
+
+  \setlength{\itemsep}{5pt}
+  \setlength{\parskip}{2pt}
+  \setlength{\parsep}{2pt}
+  \setlength{\topsep}{2pt}
+
+\resumeItem{Led bar operations during 12-hour shifts by coordinating and relieving a 3--5 person team, maintaining service flow and operational order while supporting peak-volume demand}
+\resumeItem{Delivered high-volume guest service for 100+ customers per shift by maintaining strong communication, professionalism, and conflict prevention, ensuring a positive and efficient customer experience}
+\resumeItem{Provided real-time coaching and support to bartenders and barbacks, reinforcing service standards, teamwork, and task prioritization}
+\resumeItem{Generated \$3,000--\$10,000 in sales per shift while maintaining a clean, compliant, and organized bar environment}
+
+\resumeItemListEnd  
+\vspace{8pt}
+
+%----------------------
+
+\resumeSubheading
+{Marquette University}
+{Milwaukee, WI} 
+{Audio-Visual Technician}
+{January 2020 - May 2024}
+
+\vspace{6pt}
+  
+\resumeItemListStart
+
+  \setlength{\itemsep}{5pt}
+  \setlength{\parskip}{2pt}
+  \setlength{\parsep}{2pt}
+  \setlength{\topsep}{2pt}
+
+    \resumeItem{Applied OSI model principles to support AV-over-IP environments, troubleshooting Layer 1--3 issues including cabling, switch port configuration, IP addressing, and multicast traffic affecting audio/video delivery}
+    \resumeItem{Configured and maintained Zoom Rooms, Microsoft Teams Rooms, and hybrid conferencing systems, integrating controllers, scheduling displays, and Outlook/Exchange scheduling workflows}
+    \resumeItem{Performed preventative maintenance inspections for conference and concert venues by testing cabling (XLR and Copper), verifying signal paths, and proactively troubleshooting AV systems before events to prevent downtime during live performances}
+
+    \vspace{2.5pt}
+
+%----------------------
+
+  \resumeSubheading
+{Musample}
+{Milwaukee, WI}
+{Software Developer Intern}
+{September 2023 – May 2024}
+      \vspace{2pt}
+      \resumeItemListStart
+
+\resumeItem{Developed and maintained full-stack web applications using JavaScript frameworks to support music collaboration}
+\resumeItem{Built and integrated RESTful APIs to enhance platform interoperability and improve backend performance}
+\resumeItem{Participated in agile sprints and cross-functional meetings to plan and execute product updates in collaboration with design and marketing teams}
+\resumeItem{Conducted code reviews and implemented testing protocols to ensure software reliability and maintainability}
+
+  \resumeItemListEnd  
+
+  
+
+%----------------------
+
+\resumeSubheading
+{Library assistant}
+{Milwaukee,WI} 
+{Raynor Memorial Library}
+{January 2020 - August 2023}
+      
+\resumeItemListStart
+
+\resumeItem{Provides instruction, research support, and outreach services.}
+\resumeItem{Collaborates with academic programs for library initiatives.}
+\resumeItem{ Develops peer information assistant program.}
+\resumeItem{Serves as liaison for academic departments.}
+
+\resumeItemListEnd  
+
+%----------------------
+
+  \resumeSubheading
+{Cashier}
+{Milwaukee, WI} 
+{Walmart}
+{September 2019 - December 2022}
+
+    \resumeItemListStart
+
+  \resumeItem{Processed a high volume of cash, credit, and debit transactions accurately and efficiently.}
+  \resumeItem{Provided customer service, answering questions and professionally resolving complaints.}
+  \resumeItem{Balanced cash drawer at the beginning and end of each shift, ensuring zero discrepancies.}
+  \resumeItem{Cross-sold additional products and services based on customer needs.}
+
+    \resumeItemListEnd  
+
+
+
