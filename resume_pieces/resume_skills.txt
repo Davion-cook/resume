@@ -1,0 +1,18 @@
+\section{\color{airforceblue}SKILLS}
+\begin{itemize}[leftmargin=0in, label={}]
+
+  \item \textbf{Languages:} English, Spanish
+
+  \item \textbf{Networking \& Protocols:} Routing \& Switching Fundamentals, MPLS Concepts, VRRP, TCP/UDP, DHCP, DNS, IPv4/IPv6, Cisco IOS, Arista EOS, Network Troubleshooting, Terminal Access
+
+  \item \textbf{Data Center Hardware \& Infrastructure:} Rack \& Stack Deployment, Break/Fix Troubleshooting, Hot Swaps, Structured Cabling, Patch Panel Management, Fiber Optic Handling (LC/SC), Copper Cabling, Cable Testing \& Tracing, 40/100G Connectivity, Server Hardware Installation, Asset Tracking, Hardware Diagnostics
+
+  \item \textbf{Systems \& Automation:} Linux, Windows, macOS, Python, Firmware Configuration, Hardware/Software Integration Support, Debugging, Log Analysis
+
+  \item \textbf{Operations \& Documentation:} Asset Database Management, Change Management, ServiceNow, Ticketing Systems, Production Maintenance Support, Migration Support
+
+  \item \textbf{Infrastructure Support Systems:} Basic Knowledge of Data Center Power \& Cooling Concepts, Equipment Decommissioning, Hardware Lifecycle Support
+
+  \item \textbf{Operations \& Leadership:} Workflow Optimization, Inventory Control, Strategic Planning, Process Improvement, Quality Assurance
+
+\end{itemize}
