@@ -1,0 +1,72 @@
+\section{\color{airforceblue}PROJECTS}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Mini Java Compiler Development}
+{Marquette University}
+{Academic Project – Based on \textit{Modern Compiler Implementation in Java}}
+{August 2022 - December 2022}
+\vspace{2pt}
+
+\resumeItemListStart
+
+\resumeItem{Constructed core compiler components including lexical analysis, syntax parsing, and abstract syntax tree generation using Java}
+\resumeItem{Implemented symbol tables, type checking, and intermediate representation (IR) translation to simulate a simplified Java compiler pipeline}
+\resumeItem{Applied GitHub version control for structured iteration, enabling backtracking and consistent integration of updates without data loss}
+\resumeItem{Enhanced debugging and troubleshooting skills through extensive terminal use, code refactoring, and hardware-level testing on multiple systems}
+
+\resumeItemListEnd
+\vspace{5pt}
+
+\resumeSubheading
+{Operating System Development}
+{Marquette University}
+{Academic Project – Based on \textit{Operating Systems: Three Easy Pieces}}
+{January 2023 - May 2023}
+\vspace{2pt}
+
+\resumeItemListStart
+
+\resumeItem{Developed the foundational components of an operating system, implementing process management, scheduling algorithms, and memory allocation modules}
+\resumeItem{Utilized Linux Terminal and SSH for system-level debugging, testing, and remote deployment across multiple environments}
+\resumeItem{Maintained version control using GitHub to track kernel updates, ensuring efficient collaboration and rollback capability for team progress}
+\resumeItem{Applied systems programming techniques in C for concurrency, system calls, and resource management across different hardware configurations}
+
+\resumeItemListEnd
+\vspace{5pt}
+
+\resumeSubheading
+{Dashboard Analysis of Hardware Store Competition}
+{Milwaukee, WI}
+{Laughlin Constable – Data Project}
+{May 2023 - August 2023}
+  \vspace{2pt}
+  
+\resumeItemListStart
+
+\resumeItem{Designed and implemented a competitive analysis dashboard using Tableau and SQL, visualizing hardware store distribution by ZIP code}
+\resumeItem{Conducted spatial and market density analysis to identify underrepresented high-population regions for strategic growth}
+\resumeItem{Leveraged Google Analytics and Microsoft Excel for data cleaning, correlation analysis, and performance reporting}
+\resumeItem{Collaborated cross-functionally using Jira, and shared workflow systems to manage tasks, maintain documentation, and streamline insights delivery}
+  
+\resumeItemListEnd
+
+  \vspace{5pt}
+
+\resumeSubheading
+{Milwaukee Real Estate Dashboard}
+{Milwaukee, WI}
+{Personal Project}
+{August 2023 - May 2024}
+
+\vspace{2pt}
+\resumeItemListStart
+
+\resumeItem{Developed an interactive web application offering geolocation-based visualization of historical Milwaukee properties using map APIs}
+\resumeItem{Integrated search and filtering systems for price, property type, and location, leveraging API connections and client-side JavaScript frameworks}
+\resumeItem{Applied professional statistical analysis, including linear regression and clustering algorithms, to identify overvalued and undervalued properties based on recent sales of surrounding homes}
+\resumeItem{Performed time series analysis for forecasting real estate price trends using Python, SQL, and data visualization libraries}
+
+
+\resumeItemListEnd
+\resumeSubHeadingListEnd
