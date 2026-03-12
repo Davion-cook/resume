@@ -159,11 +159,11 @@
 
 \begin{center}
     {\huge Davion Amarion Cook} \\ \vspace{2pt} 
-    { Contact Information: +1 (414)-688-9949} ~ 
+    { Contact Information: +1 (XXX)-XXX-XXXX} ~ 
     \small{-}
-    \href{mailto:[enter your email id]}{{Davion.cook13@gmail.com}} 
+    \href{mailto:[enter your email id]}{{XXXXXXXXXXXX@gmail.com}} 
     \vspace
-    {Home address: 9341 W Goodrich ave Milwaukee, WI 53224}
+    {Home address: XXXXXXXXXXXXXXXXXXXX }
     \vspace{-7pt}
 \end{center}
 
