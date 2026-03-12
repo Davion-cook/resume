@@ -1,0 +1,8 @@
+\section*{Awards}
+\begin{itemize}
+    \item Rev. Andrew J. Thon, S.J. Award for Leadership, 2024
+    \item Marquette University's Fraternity Member of the Year, 2024
+    \item Reverend Robert A. Wild, SJ. Spirit of Marquette - Organization of the Year, 2024
+    \item Marquette University's Student Organization Program of the Year - Fiesta de la Calle San Sebastián, 2024
+    \item Marquette University's Fraternity of the Year, 2024
+\end{itemize}
