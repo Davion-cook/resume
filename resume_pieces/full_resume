@@ -1,0 +1,321 @@
+%-------------------------
+% Resume in LaTeX
+% Author: Davion Amarion Cook
+% License: MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+
+\definecolor{cvblue}{HTML}{0E5484}
+\definecolor{black}{HTML}{130810}
+\definecolor{darkcolor}{HTML}{0F4539}
+\definecolor{cvgreen}{HTML}{3BD80D}
+\definecolor{taggreen}{HTML}{00E278}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{name}{black}
+\colorlet{tagline}{darkcolor}
+\colorlet{heading}{darkcolor}
+\colorlet{headingrule}{cvblue}
+\colorlet{accent}{darkcolor}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\usepackage{CormorantGaramond}
+\usepackage{charter}
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+\urlstyle{same}
+
+\definecolor{airforceblue}{rgb}{0.36, 0.54, 0.66}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1 \vspace{-1pt}}}
+}
+\newcommand{\classesList}[4]{
+  \item\small{{#1 #2 #3 #4 \vspace{-2pt}}}
+}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \textbf{\small #2} \\
+      \textit{\large#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubSubheading}[2]{
+  \item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \textit{\small#1} & \textit{\small #2} \\
+  \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+  \item
+  \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+    \small#1 & \textbf{\small #2}\\
+  \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.1in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
+
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\huge Davion Amarion Cook} \\ \vspace{2pt}
+    {+1 (414)-688-9949} ~
+    \small{-}
+    \href{mailto:Davion.cook13@gmail.com}{{Davion.cook13@gmail.com}} ~
+    \small{-}
+    \href{https://github.com/YOUR-USERNAME}{{github.com/YOUR-USERNAME}} \\
+    \vspace{2pt}
+    {Milwaukee, WI}
+    \vspace{-7pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{\color{airforceblue}EDUCATION}
+\vspace{2.5pt}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Marquette University}{Milwaukee, WI}
+    {Bachelor of Science, Computer Science}{May 2024}
+\resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{\color{airforceblue}WORK EXPERIENCE}
+
+\resumeSubHeadingListStart
+
+% --- Teksystems ---
+\resumeSubheading
+{Teksystems}{Mount Pleasant, WI}
+{Data Center Network Technician}{November 2025 -- Present}
+
+\vspace{2.5pt}
+\resumeItemListStart
+  \setlength{\itemsep}{5pt}
+  \setlength{\parskip}{2pt}
+  \setlength{\parsep}{2pt}
+  \setlength{\topsep}{2pt}
+  \resumeItem{Deployed, configured, and maintained physical network infrastructure in a production data center, supporting 24x7 uptime through hands-on break-fix troubleshooting and hardware lifecycle management}
+  \resumeItem{Installed, routed, tested, and validated structured cabling including single-mode/multi-mode fiber optic (LC/SC) and copper (Cat6/Cat6A), ensuring full labeling and cable management compliance across multi-rack deployments}
+  \resumeItem{Maintained as-built documentation and asset databases in ServiceNow, capturing equipment configurations, rack layouts, cabling records, and resolution histories}
+  \resumeItem{Collaborated with Critical Environment Technicians on mechanical and electrical infrastructure tasks including power circuit verification, fill/drain operations, and equipment labeling to ensure safe power delivery}
+  \resumeItem{Supported multi-vendor hardware deployments coordinating installs, migrations, and decommissioning against production maintenance windows}
+\resumeItemListEnd
+
+% --- Musample ---
+\resumeSubheading
+{Musample}{Milwaukee, WI}
+{Software Developer Intern}{September 2023 -- May 2024}
+
+\vspace{2.5pt}
+\resumeItemListStart
+  \setlength{\itemsep}{5pt}
+  \setlength{\parskip}{2pt}
+  \setlength{\parsep}{2pt}
+  \setlength{\topsep}{2pt}
+  \resumeItem{Developed and maintained full-stack web applications using JavaScript frameworks to support a music collaboration platform, contributing features from frontend UI through backend services}
+  \resumeItem{Built and integrated RESTful APIs to enhance platform interoperability and improve backend performance across interconnected services}
+  \resumeItem{Participated in Agile sprints and cross-functional planning meetings to execute product updates in collaboration with design and marketing teams}
+  \resumeItem{Conducted code reviews and implemented testing protocols to ensure software reliability, maintainability, and consistent delivery standards}
+\resumeItemListEnd
+
+% --- Laughlin Constable ---
+\resumeSubheading
+{Laughlin Constable}{Milwaukee, WI}
+{Data Analytics \& Insights Intern}{May 2023 -- August 2023}
+
+\vspace{2.5pt}
+\resumeItemListStart
+  \setlength{\itemsep}{5pt}
+  \setlength{\parskip}{2pt}
+  \setlength{\parsep}{2pt}
+  \setlength{\topsep}{2pt}
+  \resumeItem{Developed interactive dashboards in Tableau and SQL to visualize client performance metrics, uncovering actionable insights that directly informed strategic decisions}
+  \resumeItem{Analyzed website analytics to improve user retention and engagement, delivering data-driven recommendations to creative and marketing stakeholders}
+  \resumeItem{Designed a competitive analysis dashboard visualizing hardware store distribution by ZIP code using spatial and market density analysis to identify underrepresented high-population regions}
+  \resumeItem{Utilized Google Analytics, Excel, and Tableau to streamline reporting workflows and automate recurring data tasks, reducing manual effort across the analytics team}
+\resumeItemListEnd
+
+% --- Marquette AV ---
+\resumeSubheading
+{Marquette University -- Alumni Memorial Union}{Milwaukee, WI}
+{Network \& Audio-Visual Technician}{January 2020 -- May 2024}
+
+\vspace{2.5pt}
+\resumeItemListStart
+  \setlength{\itemsep}{5pt}
+  \setlength{\parskip}{2pt}
+  \setlength{\parsep}{2pt}
+  \setlength{\topsep}{2pt}
+  \resumeItem{Applied OSI model principles to troubleshoot Layer 1--7 issues including cabling faults, switch port misconfiguration, IP addressing conflicts, and multicast routing affecting AV-over-IP delivery across campus infrastructure}
+  \resumeItem{Configured and maintained network-connected endpoint systems (Zoom Rooms, Microsoft Teams Rooms), managing DHCP reservations, DNS records, VLAN segmentation, and Outlook/Exchange scheduling workflows}
+  \resumeItem{Hardened configurations of 50+ managed endpoints by enforcing network segmentation and access policies, reducing attack surface across multiple campus buildings}
+  \resumeItem{Delivered Tier 1--2 technical support to campus clients, troubleshooting hardware, software, and network connectivity across Windows and macOS environments with minimal downtime during live events}
+  \resumeItem{Developed Python and Bash scripts to automate device configuration and provisioning workflows, reducing manual errors during mass deployments using Git for version control}
+\resumeItemListEnd
+
+% --- Pufferfish ---
+\resumeSubheading
+{Pufferfish}{Milwaukee, WI}
+{Assistant Bar Manager}{November 2023 -- Present}
+
+\vspace{2.5pt}
+\resumeItemListStart
+  \setlength{\itemsep}{5pt}
+  \setlength{\parskip}{2pt}
+  \setlength{\parsep}{2pt}
+  \setlength{\topsep}{2pt}
+  \resumeItem{Led bar operations during 12-hour shifts coordinating a 3--5 person team, maintaining service flow and operational order under peak-volume demand serving 100+ guests per shift}
+  \resumeItem{Generated \$3,000--\$10,000 in sales per shift while maintaining a clean, compliant, and organized bar environment}
+  \resumeItem{Provided real-time coaching to bartenders and barbacks, reinforcing service standards, teamwork, and task prioritization}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{\color{airforceblue}PROJECTS}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Operating System Development}{Marquette University}
+{Academic Project -- C, Linux, GitHub}{January 2023 -- May 2023}
+\vspace{2pt}
+\resumeItemListStart
+  \resumeItem{Built foundational OS components in C including process management, CPU scheduling algorithms, and memory allocation modules, demonstrating applied knowledge of OS internals and systems programming}
+  \resumeItem{Implemented concurrency primitives, system calls, and resource management across hardware configurations using Linux Terminal and SSH for system-level debugging and remote deployment}
+  \resumeItem{Maintained version control via GitHub to track kernel updates, enabling efficient team collaboration and rollback capability throughout iterative development}
+\resumeItemListEnd
+
+\vspace{5pt}
+\resumeSubheading
+{Mini Java Compiler}{Marquette University}
+{Academic Project -- Java, GitHub}{August 2022 -- December 2022}
+\vspace{2pt}
+\resumeItemListStart
+  \resumeItem{Constructed a functional compiler pipeline in Java, including lexical analysis, syntax parsing, abstract syntax tree generation, symbol tables, type checking, and intermediate representation (IR) translation}
+  \resumeItem{Strengthened low-level debugging skills through extensive terminal use, code refactoring, and hardware-level testing across multiple systems with GitHub version control for structured iteration}
+\resumeItemListEnd
+
+\vspace{5pt}
+\resumeSubheading
+{Milwaukee Real Estate Web Application}{Milwaukee, WI}
+{Personal Project -- Python, JavaScript, SQL, APIs}{August 2023 -- May 2024}
+\vspace{2pt}
+\resumeItemListStart
+  \resumeItem{Built an interactive full-stack web application providing geolocation-based visualization of historical Milwaukee properties using map APIs, JavaScript frameworks, and client-side search and filtering systems}
+  
+  \resumeItem{Applied linear regression and clustering algorithms to identify overvalued and undervalued properties, and performed time series analysis for real estate price trend forecasting using Python and SQL}
+\resumeItemListEnd
+
+\vspace{5pt}
+\resumeSubheading
+{AES Encryption Implementation}{Personal Project}
+{Personal Project -- Python}{March 2026}
+\vspace{2pt}
+\resumeItemListStart
+  \resumeItem{Implemented the Advanced Encryption Standard (AES) algorithm from scratch in Python, including full encryption and decryption pipelines across 128-bit block operations}
+  \resumeItem{Built key generation and key expansion routines following the AES specification, applying SubBytes, ShiftRows, MixColumns, and AddRoundKey transformations at each cipher round}
+  \resumeItem{Deepened understanding of symmetric cryptography, block cipher design, and the mathematical foundations underlying modern encryption standards used to protect sensitive data}
+\resumeItemListEnd
+ 
+\resumeSubHeadingListEnd
+
+
+
+\resumeSubHeadingListEnd
+
+%-----------LEADERSHIP-----------
+\section{\color{airforceblue}LEADERSHIP \& COMMUNITY INVOLVEMENT}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Sigma Lambda Beta International Fraternity, Inc.}{Milwaukee, WI}
+{President}{April 2023 -- May 2024}
+\resumeItemListStart
+  \resumeItem{Led chapter operations and founded the Fiesta de la Calle San Sebastian, a cultural event celebrating Puerto Rican heritage for the broader Marquette University community}
+  \resumeItem{Partnered with Marquette's Center for Engagement and Inclusion and Campus Ministry to organize community-wide cultural initiatives including Día de los Muertos and heritage showcases}
+  \resumeItem{Recognized with \textit{Fraternity Member of the Year}, \textit{Spirit of Marquette -- Organization of the Year}, and the \textit{Rev. Andrew J. Thon, S.J. Award for Leadership}}
+\resumeItemListEnd
+
+\resumeSubheading
+{Soundclub Live}{Milwaukee, WI}
+{Event Coordinator \& IT Lead}{August 2025 -- Present}
+\resumeItemListStart
+  \resumeItem{Develop venue partnerships to host off-peak takeover events, expanding organizational reach while driving partner business traffic}
+  \resumeItem{Oversee A/V logistics and coordinate technicians to ensure reliable sound and equipment setup at each event}
+  \resumeItem{Conduct data-driven analytics on event attendance, audience retention, and social media engagement to optimize posting schedules and event timing}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
+\section{\color{airforceblue}SKILLS}
+\begin{itemize}[leftmargin=0in, label={}]
+
+  \item \textbf{Languages \& Programming:} C, C++ (memory management, pointers, multi-threading, system calls), Python, Bash, JavaScript, SQL, Java; REST API integration, object-oriented design
+
+  \item \textbf{Operating Systems \& Systems Internals:} Linux (CLI), Windows, macOS; Memory Management, Process \& Thread Scheduling, File Systems, System Calls \& APIs, Hardware/Software/Firmware Interaction
+
+  \item \textbf{Networking \& Cybersecurity:} TCP/IP, IPv4/IPv6, DHCP, DNS, VLAN, Multicast, BGP/MPLS/VRRP concepts, OSI Model (L1--L7), Network Traffic Analysis, Attack Surface Reduction, IDS/IPS Concepts, Network Hardening
+
+  \item \textbf{Data Center \& Infrastructure:} Structured Cabling (Fiber: LC/SC, SM/MM; Copper: Cat6/Cat6A), 40/100G Ethernet, Rack \& Stack, Break/Fix Troubleshooting, Asset Lifecycle Management, Multi-vendor Hardware, Data Center Power \& Cooling Concepts
+
+  \item \textbf{Data \& Analytics:} Tableau, Google Analytics, SQL, Microsoft Excel, Data Visualization, Linear Regression, Clustering, Time Series Analysis, Business Intelligence, Market Research
+
+  \item \textbf{Software Development:} Full-Stack Web Development, Git \& Version Control, Agile/Scrum, SDLC, CI Concepts, Code Review, Testing \& Validation, Debugging, Configuration Management
+
+  \item \textbf{Tools \& Platforms:} ServiceNow, Jira, Salesforce, Microsoft 365, Google Workspace, Zoom/Teams Rooms, Crestron, Shure, Logitech AV Systems, Raspberry Pi, Embedded Systems
+
+  \item \textbf{Languages:} English, Spanish
+
+\end{itemize}
+
+\end{document}
