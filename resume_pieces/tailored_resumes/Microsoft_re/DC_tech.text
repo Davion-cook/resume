@@ -1,0 +1,175 @@
+%-------------------------
+% Resume in LaTeX
+% Author: Davion Amarion Cook
+% Tailored for: Microsoft Data Center Technician (CO+I)
+% ONE PAGE VERSION
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+
+\definecolor{cvblue}{HTML}{0E5484}
+\definecolor{black}{HTML}{130810}
+\definecolor{darkcolor}{HTML}{0F4539}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{name}{black}
+\colorlet{heading}{darkcolor}
+\colorlet{headingrule}{cvblue}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\usepackage{CormorantGaramond}
+\usepackage{charter}
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.75in}
+\addtolength{\textheight}{1.5in}
+\urlstyle{same}
+
+\definecolor{airforceblue}{rgb}{0.36, 0.54, 0.66}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1 \vspace{-2pt}}}
+}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \textbf{\small #2} \\
+      \textit{\large#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.1in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\huge Davion Amarion Cook} \\ \vspace{2pt}
+    {+1 (414)-688-9949} ~
+    \small{-}
+    \href{mailto:Davion.cook13@gmail.com}{{Davion.cook13@gmail.com}} ~
+    \small{-}
+    \href{https://github.com/YOUR-USERNAME}{{github.com/YOUR-USERNAME}} ~
+    \small{-}
+    {Milwaukee, WI}
+    \vspace{-6pt}
+\end{center}
+
+%-----------SUMMARY-----------
+\section{\color{airforceblue}SUMMARY}
+\vspace{1pt}
+\small{Production data center technician currently contracted to Microsoft CO+I, with hands-on experience in structured cabling, rack deployment, break-fix troubleshooting, hardware decommissioning, and DBD processing within a live Microsoft facility. Pursuing a full-time employee (FTE) opportunity at Microsoft to deepen contributions to CO+I operations and grow within the organization long-term. BS in Computer Science, Marquette University.}
+\vspace{-4pt}
+
+%-----------EDUCATION-----------
+\section{\color{airforceblue}EDUCATION}
+\vspace{1pt}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Marquette University}{Milwaukee, WI}
+    {Bachelor of Science, Computer Science}{May 2024}
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{\color{airforceblue}WORK EXPERIENCE}
+
+\resumeSubHeadingListStart
+
+% --- Teksystems @ Microsoft ---
+\resumeSubheading
+{Teksystems (Contracted to Microsoft CO+I)}{Mount Pleasant, WI}
+{Data Center Network Technician}{November 2025 -- Present}
+\vspace{1pt}
+\resumeItemListStart
+  \setlength{\itemsep}{3pt}
+  \setlength{\parskip}{1pt}
+  \setlength{\parsep}{1pt}
+  \setlength{\topsep}{1pt}
+  \resumeItem{Deployed and maintained physical network infrastructure in a production Microsoft data center, supporting 24x7 uptime through hands-on break-fix troubleshooting and hardware lifecycle management across multi-vendor, multi-rack environments}
+  \resumeItem{Performed post-execution verification of cabling, labeling, grounding, and staging across rack deployments --- identifying and escalating Network Design Template (NDT) deviations and documentation errors before impacting production}
+  \resumeItem{Executed hardware decommissioning procedures including preparation of servers and storage equipment for refresh cycles, following standard checklists for data-bearing device identification and component disposition}
+  \resumeItem{Processed data-bearing devices (DBDs) following Microsoft security and data management procedures, ensuring identification of drives for eradication or destruction in compliance with chain-of-custody requirements}
+  \resumeItem{Managed and completed assigned work orders independently in ServiceNow, consistently executing break-fix and deployment tickets in alignment with KPI targets while maintaining accurate asset records and escalation documentation}
+  \resumeItem{Adhered to and reinforced a culture of safety --- completing Task Hazard Analyses (THAs), applying Lockout/Tagout (LOTO) procedures, performing energized power whip verification, and using required PPE in compliance with EHS standards}
+  \resumeItem{Installed, routed, tested, and validated structured cabling including single-mode/multi-mode fiber optic (LC/SC) and copper (Cat6/Cat6A), ensuring full labeling and cable management compliance across multi-rack deployments}
+\resumeItemListEnd
+\vspace{8pt}
+% --- Marquette AV ---
+\resumeSubheading
+{Marquette University -- Alumni Memorial Union}{Milwaukee, WI}
+{Network \& Audio-Visual Technician}{January 2020 -- May 2024}
+\vspace{1pt}
+\resumeItemListStart
+  \setlength{\itemsep}{3pt}
+  \setlength{\parskip}{1pt}
+  \setlength{\parsep}{1pt}
+  \setlength{\topsep}{1pt}
+  \resumeItem{Applied OSI model principles to troubleshoot Layer 1--7 issues including cabling faults, switch port misconfiguration, IP addressing conflicts, and multicast routing across campus network infrastructure}
+  \resumeItem{Hardened configurations of 50+ managed network endpoints by enforcing VLAN segmentation, DHCP reservations, DNS records, and access policies --- reducing attack surface across multiple campus buildings}
+  \resumeItem{Developed Python and Bash scripts to automate device configuration and provisioning workflows, reducing manual errors during mass deployments}
+  \resumeItem{Performed preventative maintenance inspections across venues --- testing cabling, verifying signal paths, and documenting system status to prevent failures during live operations with 100+ attendees}
+\resumeItemListEnd
+
+
+\resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
+\section{\color{airforceblue}SKILLS}
+\vspace{2pt}
+\begin{itemize}[leftmargin=0in, label={}, itemsep=2pt]
+
+  \item \textbf{Data Center Hardware \& Infrastructure:} Rack \& Stack, Break/Fix Troubleshooting, Post-Execution Verification, NDT Compliance, Hardware Decommissioning, DBD Processing, Structured Cabling (Fiber LC/SC SM/MM; Copper Cat6/Cat6A), 40/100G Ethernet, Patch Panel Management, Hot Swaps, Asset Lifecycle Management, Multi-vendor Hardware
+
+  \item \textbf{Safety \& Compliance:} Lockout/Tagout (LOTO), Task Hazard Analysis (THA), Energized Work Procedures, PPE, Environmental Health \& Safety (EHS), Data Center Power \& Cooling Concepts, Fill/Drain Operations, Chain-of-Custody Procedures
+
+  \item \textbf{Operations \& Documentation:} ServiceNow (KPI-driven ticket execution), Asset Database Management, Change Management, Process Change Notifications (PCNs), Incident Escalation, Shift Handover, Production Maintenance Support
+
+  \item \textbf{Networking \& Systems:} TCP/IP, IPv4/IPv6, DHCP, DNS, VLAN, OSI Model (L1--L7), Network Hardening, BGP/MPLS/VRRP Concepts, Linux (CLI), Windows, macOS
+
+  \item \textbf{Automation \& Programming:} Python, Bash, Git, Configuration Automation, Device Provisioning Scripting, JavaScript, SQL, C
+
+\end{itemize}
+
+\end{document}
