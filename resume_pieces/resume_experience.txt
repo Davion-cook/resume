@@ -4,42 +4,64 @@
 
 
 \resumeSubheading
-
-{Teksystem}
-{Mount Pleasant, WI} 
-{Data center Technician}
-{November 2025 – Present}
-
+{Teksystems (Contracted to Microsoft CO+I)}{Mount Pleasant, WI}
+{Data Center Network Technician}{November 2025 -- Present}
+ 
 \vspace{2.5pt}
-
 \resumeItemListStart
+  \setlength{\itemsep}{4pt}
+  \setlength{\parskip}{1pt}
+  \setlength{\parsep}{1pt}
+  \setlength{\topsep}{2pt}
 
-\setlength{\itemsep}{5pt}
-\setlength{\parskip}{2pt}
-\setlength{\parsep}{2pt}
-\setlength{\topsep}{2pt}
+  \resumeItem{Deployed and maintained physical network infrastructure in a production Microsoft data center, supporting 24x7 uptime through hands-on break-fix troubleshooting and hardware lifecycle management across multi-vendor, multi-rack environments}
+  \resumeItem{Performed post-execution verification of cabling, labeling, grounding, and staging across rack deployments --- identifying and escalating Network Design Template (NDT) deviations and documentation errors before impacting production}
+  \resumeItem{Executed hardware decommissioning procedures including preparation of servers and storage equipment for refresh cycles, following standard checklists for data-bearing device identification and component disposition}
+  \resumeItem{Processed data-bearing devices (DBDs) following Microsoft security and data management procedures, ensuring identification of drives for eradication or destruction in compliance with chain-of-custody requirements}
+  \resumeItem{Regularly provided hands-on guidance to less experienced technicians on cabling procedures, documentation standards, and safety protocols --- reinforcing process compliance and accelerating onboarding across multi-technician deployments}
+  \resumeItem{Managed and completed assigned work orders independently in ServiceNow, consistently executing break-fix and deployment tickets in alignment with KPI targets while maintaining accurate asset records and escalation documentation}
+  \resumeItem{Adhered to and reinforced a culture of safety --- completing Task Hazard Analyses (THAs), applying Lockout/Tagout (LOTO) procedures, performing energized power whip verification, and using required PPE in compliance with EHS standards}
+  \resumeItem{Proactively identified workflow inefficiencies and provided process improvement feedback to direct-line management, collaborating across shifts to share best practices and enable smooth handovers}
+  \resumeItem{Installed, routed, tested, and validated structured cabling including single-mode/multi-mode fiber optic (LC/SC) and copper (Cat6/Cat6A), ensuring full labeling and cable management compliance across multi-rack deployments}
+\resumeItemListEnd
+ 
+\vspace{4pt}
+ 
+% --- Marquette AV ---
+\resumeSubheading
+{Marquette University -- Alumni Memorial Union}{Milwaukee, WI}
+{Network \& Audio-Visual Technician}{January 2020 -- May 2024}
+ 
+\vspace{2.5pt}
+\resumeItemListStart
+  \setlength{\itemsep}{4pt}
+  \setlength{\parskip}{1pt}
+  \setlength{\parsep}{1pt}
+  \setlength{\topsep}{2pt}
+  \resumeItem{Applied OSI model principles to troubleshoot Layer 1--7 issues including cabling faults, switch port misconfiguration, IP addressing conflicts, and multicast routing across campus network infrastructure}
+  \resumeItem{Hardened configurations of 50+ managed network endpoints by enforcing VLAN segmentation, DHCP reservations, DNS records, and access policies --- reducing attack surface across multiple campus buildings}
+  \resumeItem{Developed Python and Bash scripts to automate device configuration and provisioning workflows, reducing manual errors during mass deployments; version controlled via Git}
+  \resumeItem{Performed preventative maintenance inspections across venues --- testing cabling, verifying signal paths, and documenting system status to prevent failures during live operations with 100+ attendees}
+\resumeItemListEnd
+ 
+\vspace{4pt}
 
-\resumeItem{Performed break-fix troubleshooting and hardware replacements in a  data center environment to support uptime and operational continuity}
-\resumeItem{Installed, routed, and validated structured cabling (fiber optic and copper), ensuring proper labeling, documentation, and cable management compliance}
-\resumeItem{Documented incident reports and break-fix procedures in internal ticketing systems, capturing troubleshooting steps, resolution actions, and escalation notes to ensure clear handoff and repeatable solutions for future technicians}
-\resumeItem{Assisted Critical Environment Technicians with mechanical/electrical support tasks, including fill drain kit operations, energized power whip verification, and equipment labeling to ensure safe and reliable power delivery for server infrastructure}
-
-\resumeItemListEnd  
-
- %----------------------
-
+% --- Pufferfish ---
 \resumeSubheading
 {Pufferfish}{Milwaukee, WI}
 {Assistant Bar Manager}{November 2023 -- Present}
-
+ 
 \vspace{2.5pt}
 \resumeItemListStart
-  \setlength{\itemsep}{5pt}
-  \setlength{\parskip}{2pt}
-  \setlength{\parsep}{2pt}
+  \setlength{\itemsep}{4pt}
+  \setlength{\parskip}{1pt}
+  \setlength{\parsep}{1pt}
   \setlength{\topsep}{2pt}
-  \resumeItem{Coordinated 3--5 person team operations across 12-hour shifts --- managing task allocation, real-time coaching, and smooth shift transitions under high-demand conditions, directly mirroring multi-technician data center floor coordination}
-  \resumeItem{Provided real-time guidance to team members on service standards, task prioritization, and process adherence --- reinforcing consistent execution quality and resolving operational issues with minimal disruption to service flow}
+  \resumeItem{Led shift operations across 12-hour windows, directly supervising and coordinating a 3--5 person team of bartenders and barbacks --- managing task allocation, role coverage, and real-time workload redistribution to maintain service quality under sustained high-volume demand serving 100+ guests per shift}
+  \resumeItem{Consistently drove \$3,000--\$10,000 in revenue per shift while maintaining full operational compliance, cleanliness standards, and staff performance --- demonstrating the ability to hold quality outcomes accountable while simultaneously managing people}
+  \resumeItem{Navigated high-pressure operational situations including understaffed rushes, staff conflicts, escalating guest disputes, and mid-shift equipment failures --- making rapid decisions that minimized disruption and kept the team focused on execution without management escalation}
+  \resumeItem{Provided real-time coaching and performance feedback to team members during live operations, reinforcing service standards, task prioritization, and teamwork under pressure without pausing shift productivity}
+  \resumeItem{Onboarded and trained new staff members on operational procedures, service standards, and compliance requirements, accelerating their readiness and reducing repeat errors across the team}
 \resumeItemListEnd
 
 %----------------------
@@ -78,43 +100,3 @@
   \resumeItem{Conducted code reviews and implemented testing protocols to ensure software reliability --- applying the same quality-verification mindset used in hardware deployment and validation workflows}
 
 \resumeItemListEnd
-
-
-  
-
-%----------------------
-
-\resumeSubheading
-{Library assistant}
-{Milwaukee,WI} 
-{Raynor Memorial Library}
-{January 2020 - August 2023}
-      
-\resumeItemListStart
-
-\resumeItem{Provides instruction, research support, and outreach services.}
-\resumeItem{Collaborates with academic programs for library initiatives.}
-\resumeItem{ Develops peer information assistant program.}
-\resumeItem{Serves as liaison for academic departments.}
-
-\resumeItemListEnd  
-
-%----------------------
-
-  \resumeSubheading
-{Cashier}
-{Milwaukee, WI} 
-{Walmart}
-{September 2019 - December 2022}
-
-    \resumeItemListStart
-
-  \resumeItem{Processed a high volume of cash, credit, and debit transactions accurately and efficiently.}
-  \resumeItem{Provided customer service, answering questions and professionally resolving complaints.}
-  \resumeItem{Balanced cash drawer at the beginning and end of each shift, ensuring zero discrepancies.}
-  \resumeItem{Cross-sold additional products and services based on customer needs.}
-
-    \resumeItemListEnd  
-
-
-
