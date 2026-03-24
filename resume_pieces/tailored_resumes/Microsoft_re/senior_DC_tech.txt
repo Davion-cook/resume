@@ -1,0 +1,201 @@
+%-------------------------
+% Resume in LaTeX
+% Author: Davion Amarion Cook
+% Tailored for: Microsoft Senior Data Center Technician (CO+I)
+% License: MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+
+\definecolor{cvblue}{HTML}{0E5484}
+\definecolor{black}{HTML}{130810}
+\definecolor{darkcolor}{HTML}{0F4539}
+\definecolor{cvgreen}{HTML}{3BD80D}
+\definecolor{taggreen}{HTML}{00E278}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{name}{black}
+\colorlet{tagline}{darkcolor}
+\colorlet{heading}{darkcolor}
+\colorlet{headingrule}{cvblue}
+\colorlet{accent}{darkcolor}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\usepackage{CormorantGaramond}
+\usepackage{charter}
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+\urlstyle{same}
+
+\definecolor{airforceblue}{rgb}{0.36, 0.54, 0.66}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1 \vspace{-1pt}}}
+}
+\newcommand{\classesList}[4]{
+  \item\small{{#1 #2 #3 #4 \vspace{-2pt}}}
+}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \textbf{\small #2} \\
+      \textit{\large#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubSubheading}[2]{
+  \item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \textit{\small#1} & \textit{\small #2} \\
+  \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+  \item
+  \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+    \small#1 & \textbf{\small #2}\\
+  \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.1in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
+
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\huge Davion Amarion Cook} \\ \vspace{2pt}
+    {+1 (414)-688-9949} ~
+    \small{-}
+    \href{mailto:Davion.cook13@gmail.com}{{Davion.cook13@gmail.com}} ~
+    \small{-}
+    \href{https://github.com/YOUR-USERNAME}{{github.com/YOUR-USERNAME}} \\
+    \vspace{2pt}
+    {Milwaukee, WI}
+    \vspace{-7pt}
+\end{center}
+
+%-----------SUMMARY-----------
+\section{\color{airforceblue}PROFESSIONAL SUMMARY}
+\vspace{2pt}
+\small{
+Production data center technician with hands-on experience in structured cabling, rack and stack deployment, break-fix troubleshooting. Demonstrated ability to guide and mentor junior technicians, perform post-execution quality verification, and maintain process compliance against deployment standards. Bachelor of Science in Computer Science with additional background in network configuration, systems automation, and safety-critical operations.
+}
+\vspace{-4pt}
+
+%-----------EDUCATION-----------
+\section{\color{airforceblue}EDUCATION}
+\vspace{2.5pt}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Marquette University}{Milwaukee, WI}
+    {Bachelor of Science, Computer Science}{May 2024}
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{\color{airforceblue}WORK EXPERIENCE}
+
+\resumeSubHeadingListStart
+
+% --- Teksystems @ Microsoft ---
+\resumeSubheading
+{TEKsystems}{Mount Pleasant, WI}
+{Fairwater Data Center Technician}{November 2025 -- Present}
+
+\vspace{2.5pt}
+\resumeItemListStart
+  \setlength{\itemsep}{5pt}
+  \setlength{\parskip}{2pt}
+  \setlength{\parsep}{2pt}
+  \setlength{\topsep}{2pt}
+  \resumeItem{Deployed, configured, and maintained physical network infrastructure in a production Microsoft data center, supporting 24x7 uptime through hands-on break-fix troubleshooting and hardware lifecycle management across multi-vendor, multi-rack environments}
+  \resumeItem{Performed post-execution verification of cabling, labeling, grounding, and staging across rack deployments --- identifying and escalating Network Design Template (NDT) deviations and documentation errors before impacting production, preventing rework and downstream incidents}
+  \resumeItem{Regularly provided hands-on guidance to less experienced technicians on cabling procedures, documentation standards, and safety protocols --- reinforcing process compliance and accelerating onboarding across multi-technician deployments}
+  \resumeItem{Managed and completed assigned work orders independently in ServiceNow, consistently executing break-fix and deployment tickets in alignment with KPI targets while maintaining accurate asset records, resolution histories, and escalation documentation}
+  \resumeItem{Adhered to and reinforced a culture of safety across all production floor work --- completing Task Hazard Analyses (THAs), applying Lockout/Tagout (LOTO) procedures, performing energized power whip verification, and consistently using required PPE in compliance with Environmental Health \& Safety (EHS) standards}
+  \resumeItem{Proactively identified inefficiencies in deployment and documentation workflows, providing process improvement feedback to direct-line management and collaborating across technician teams to share best practices and enable smoother shift transitions}
+  \resumeItem{Installed, routed, tested, and validated structured cabling including single-mode/multi-mode fiber optic (LC/SC) and copper (Cat6/Cat6A), ensuring full labeling and cable management compliance across multi-rack deployments}
+\resumeItemListEnd
+
+% --- Marquette AV ---
+\resumeSubheading
+{Marquette University -- Alumni Memorial Union}{Milwaukee, WI}
+{Network \& Audio-Visual Technician}{January 2020 -- May 2024}
+
+\vspace{2.5pt}
+\resumeItemListStart
+  \setlength{\itemsep}{5pt}
+  \setlength{\parskip}{2pt}
+  \setlength{\parsep}{2pt}
+  \setlength{\topsep}{2pt}
+  \resumeItem{Applied OSI model principles to troubleshoot Layer 1--7 issues including cabling faults, switch port misconfiguration, IP addressing conflicts, and multicast routing affecting AV-over-IP delivery across campus network infrastructure}
+  \resumeItem{Hardened configurations of 50+ managed network endpoints by enforcing VLAN segmentation, DHCP reservations, DNS records, and access policies --- reducing attack surface and maintaining compliance across multiple campus buildings}
+  \resumeItem{Configured and maintained network-connected endpoint systems (Zoom Rooms, Microsoft Teams Rooms), managing scheduling integrations and Outlook/Exchange workflows in a live enterprise environment}
+  \resumeItem{Developed Python and Bash scripts to automate device configuration and provisioning workflows, reducing manual errors during mass deployments and using Git for version control across iterative updates}
+  \resumeItem{Delivered Tier 1--2 technical support troubleshooting hardware, software, and network connectivity across Windows and macOS environments, maintaining minimal downtime during live events with 100+ attendees}
+  \resumeItem{Performed preventative maintenance inspections across conference and concert venues --- testing cabling, verifying signal paths, and proactively documenting system status before events to prevent failures during live operations}
+\resumeItemListEnd
+
+%-----------SKILLS-----------
+\section{\color{airforceblue}SKILLS}
+\begin{itemize}[leftmargin=0in, label={}]
+
+  \item \textbf{Data Center Hardware \& Infrastructure:} Rack \& Stack Deployment, Break/Fix Troubleshooting, Post-Execution Verification, Network Design Template (NDT) Compliance, Structured Cabling (Fiber: LC/SC, SM/MM; Copper: Cat6/Cat6A), 40/100G Ethernet, Patch Panel Management, Hot Swaps, Asset Lifecycle Management, Hardware Diagnostics, Multi-vendor Hardware, Equipment Decommissioning
+
+  \item \textbf{Safety \& Compliance:} Lockout/Tagout (LOTO), Task Hazard Analysis (THA), Energized Work Procedures, PPE Compliance, Environmental Health \& Safety (EHS), Data Center Power \& Cooling Concepts, Fill/Drain Operations
+
+  \item \textbf{Operations \& Documentation:} ServiceNow, Ticketing Systems (KPI-driven), Asset Database Management, Change Management, Process Change Notifications (PCNs), Incident Documentation, Production Maintenance Support, Migration Support, Shift Handover
+
+  \item \textbf{Networking \& Systems:} TCP/IP, IPv4/IPv6, DHCP, DNS, VLAN Segmentation, OSI Model (L1--L7), Network Traffic Analysis, Network Hardening, Attack Surface Reduction, BGP/MPLS/VRRP Concepts, Linux (CLI), Windows, macOS
+
+  \item \textbf{Automation \& Programming:} Python, Bash, Git \& Version Control, Configuration Automation, Device Provisioning Scripting, REST API Integration, JavaScript, SQL, C
+
+  \item \textbf{Tools \& Platforms:} ServiceNow, Jira, Microsoft 365, Zoom Rooms, Microsoft Teams Rooms, Crestron, Shure AV Systems, Raspberry Pi
+
+  \item \textbf{Languages:} English (native), Spanish (conversational)
+
+\end{itemize}
+
+\end{document}
