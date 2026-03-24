@@ -1,0 +1,122 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\input{glyphtounicode}
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.72in}
+\addtolength{\textheight}{1.5in}
+
+\definecolor{airforceblue}{rgb}{0.36, 0.54, 0.66}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-2pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{airforceblue}\titlerule \vspace{-4pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1 \vspace{-1pt}}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\normalsize #1} & \textbf{\small #2} \\
+      \textit{\small #3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.18in, itemsep=2.5pt, parsep=0pt, topsep=3pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{2pt}}
+
+%-------------------------------------------
+\begin{document}
+
+%-----------HEADING-----------
+\begin{center}
+  {\huge \textbf{Davion Amarion Cook}} \\ \vspace{5pt}
+  \small +1 (XXX)-XXX-XXXX ~$\cdot$~
+  \href{mailto:XXXXXXXXXXXX@gmail.com}{XXXXXXXXXXXX@gmail.com} ~$\cdot$~
+  Milwaukee, WI
+\end{center}
+
+\vspace{-4pt}
+
+%-----------SUMMARY-----------
+\section{\color{airforceblue}Professional Summary}
+\vspace{4pt}
+\small{Data Center Technician with hands-on experience in hardware break-fix, rack installation, structured cabling, and server infrastructure support within production environments. Proven background in network troubleshooting, Linux systems, and component-level diagnostics. Computer Science graduate seeking to contribute to Google's Hardware Operations team on third shift.}
+\vspace{2pt}
+
+%-----------EDUCATION-----------
+\section{\color{airforceblue}Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Marquette University}{Milwaukee, WI}
+    {Bachelor of Science, Computer Science}{May 2024}
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{\color{airforceblue}Work Experience}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {Data Center Technician}{November 2025 -- Present}
+    {TEKsystems}{Mount Pleasant, WI}
+  \resumeItemListStart
+    \resumeItem{Performed break-fix troubleshooting and component-level hardware replacements in a production data center, restoring operational continuity and supporting uptime SLAs}
+    \resumeItem{Installed, racked, and physically deployed server hardware; handled manual rack movement and installation in compliance with safety and operational standards}
+    \resumeItem{Installed, routed, and validated structured cabling (fiber optic LC/SC and copper), ensuring proper labeling and cable management across high-density deployments}
+    \resumeItem{Utilized Linux command-line tools to verify system status, review hardware logs, and validate device configurations during installation and break-fix workflows}
+    \resumeItem{Documented incident reports and procedures in ServiceNow, capturing troubleshooting steps and escalation notes to enable repeatable solutions}
+    \resumeItem{Assisted Critical Environment Technicians with mechanical/electrical support including fill drain operations, energized power whip verification, and equipment labeling}
+  \resumeItemListEnd
+
+  \resumeSubheading
+    {Audio-Visual Technician}{January 2020 -- May 2024}
+    {Marquette University}{Milwaukee, WI}
+  \resumeItemListStart
+    \resumeItem{Applied OSI model principles to troubleshoot AV-over-IP environments, resolving Layer 1--3 issues including switch port configuration, IP addressing, and multicast traffic}
+    \resumeItem{Configured and maintained network-connected conferencing systems (Zoom Rooms, Microsoft Teams Rooms), integrating scheduling controllers and Outlook/Exchange workflows}
+    \resumeItem{Performed preventative maintenance by testing cabling, verifying signal paths, and diagnosing AV systems proactively to prevent downtime during live events}
+  \resumeItemListEnd
+
+  \resumeSubheading
+    {Assistant Bar Manager}{November 2023 -- Present}
+    {Pufferfish}{Milwaukee, WI}
+  \resumeItemListStart
+    \resumeItem{Managed shift operations across a 3--5 person team during 12-hour high-volume shifts, coordinating workflow, task prioritization, and real-time problem resolution}
+  \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
+\section{\color{airforceblue}Skills}
+\begin{itemize}[leftmargin=0in, label={}, itemsep=3.5pt, parsep=0pt]
+  \item \textbf{Networking \& Protocols:} Routing \& Switching, MPLS, VRRP, TCP/UDP, DHCP, DNS, IPv4/IPv6, Cisco IOS, Arista EOS, Network Troubleshooting, Terminal Access
+  \item \textbf{Data Center Hardware:} Rack \& Stack Deployment, Break/Fix, Hot Swaps, Structured Cabling, Patch Panels, Fiber Optic (LC/SC), 40/100G Connectivity, Server Hardware Installation, Asset Tracking, Hardware Diagnostics
+  \item \textbf{Systems \& Automation:} Linux (CLI, log analysis, diagnostics), Windows, macOS, Python, Firmware Configuration, Debugging
+  \item \textbf{Operations \& Documentation:} ServiceNow, Ticketing Systems, Asset Database Management, Change Management, Migration Support
+  \item \textbf{Languages:} English (fluent), Spanish (fluent)
+\end{itemize}
+
+\end{document}
