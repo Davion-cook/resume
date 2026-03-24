@@ -29,68 +29,56 @@
  %----------------------
 
 \resumeSubheading
+{Pufferfish}{Milwaukee, WI}
+{Assistant Bar Manager}{November 2023 -- Present}
 
-{Pufferfish}
-{Milwaukee, WI} 
-{Assistant Bar Manager}
-{November 2023 - Present}
-
-\vspace{6pt}
-
+\vspace{2.5pt}
 \resumeItemListStart
-
   \setlength{\itemsep}{5pt}
   \setlength{\parskip}{2pt}
   \setlength{\parsep}{2pt}
   \setlength{\topsep}{2pt}
-
-\resumeItem{Led bar operations during 12-hour shifts by coordinating and relieving a 3--5 person team, maintaining service flow and operational order while supporting peak-volume demand}
-\resumeItem{Delivered high-volume guest service for 100+ customers per shift by maintaining strong communication, professionalism, and conflict prevention, ensuring a positive and efficient customer experience}
-\resumeItem{Provided real-time coaching and support to bartenders and barbacks, reinforcing service standards, teamwork, and task prioritization}
-\resumeItem{Generated \$3,000--\$10,000 in sales per shift while maintaining a clean, compliant, and organized bar environment}
-
-\resumeItemListEnd  
-\vspace{8pt}
+  \resumeItem{Coordinated 3--5 person team operations across 12-hour shifts --- managing task allocation, real-time coaching, and smooth shift transitions under high-demand conditions, directly mirroring multi-technician data center floor coordination}
+  \resumeItem{Provided real-time guidance to team members on service standards, task prioritization, and process adherence --- reinforcing consistent execution quality and resolving operational issues with minimal disruption to service flow}
+\resumeItemListEnd
 
 %----------------------
 
 \resumeSubheading
-{Marquette University}
-{Milwaukee, WI} 
-{Audio-Visual Technician}
-{January 2020 - May 2024}
+{Marquette University -- Alumni Memorial Union}{Milwaukee, WI}
+{Network \& Audio-Visual Technician}{August 2020 -- May 2024}
 
-\vspace{6pt}
-  
+\vspace{2.5pt}
 \resumeItemListStart
-
   \setlength{\itemsep}{5pt}
   \setlength{\parskip}{2pt}
   \setlength{\parsep}{2pt}
   \setlength{\topsep}{2pt}
-
-    \resumeItem{Applied OSI model principles to support AV-over-IP environments, troubleshooting Layer 1--3 issues including cabling, switch port configuration, IP addressing, and multicast traffic affecting audio/video delivery}
-    \resumeItem{Configured and maintained Zoom Rooms, Microsoft Teams Rooms, and hybrid conferencing systems, integrating controllers, scheduling displays, and Outlook/Exchange scheduling workflows}
-    \resumeItem{Performed preventative maintenance inspections for conference and concert venues by testing cabling (XLR and Copper), verifying signal paths, and proactively troubleshooting AV systems before events to prevent downtime during live performances}
-
-    \vspace{2.5pt}
+  \resumeItem{Applied OSI model principles to troubleshoot Layer 1--7 issues including cabling faults, switch port misconfiguration, IP addressing conflicts, and multicast routing affecting AV-over-IP delivery across campus network infrastructure}
+  \resumeItem{Hardened configurations of 50+ managed network endpoints by enforcing VLAN segmentation, DHCP reservations, DNS records, and access policies --- reducing attack surface and maintaining compliance across multiple campus buildings}
+  \resumeItem{Configured and maintained network-connected endpoint systems (Zoom Rooms, Microsoft Teams Rooms), managing scheduling integrations and Outlook/Exchange workflows in a live enterprise environment}
+  \resumeItem{Developed Python and Bash scripts to automate device configuration and provisioning workflows, reducing manual errors during mass deployments and using Git for version control across iterative updates}
+  \resumeItem{Delivered Tier 1--2 technical support troubleshooting hardware, software, and network connectivity across Windows and macOS environments, maintaining minimal downtime during live events with 100+ attendees}
+  \resumeItem{Performed preventative maintenance inspections across conference and concert venues --- testing cabling, verifying signal paths, and proactively documenting system status before events to prevent failures during live operations}
+\resumeItemListEnd
 
 %----------------------
+% --- Musample ---
+\resumeSubheading
+{Musample}{Milwaukee, WI}
+{Software Developer Intern}{September 2023 -- May 2024}
 
-  \resumeSubheading
-{Musample}
-{Milwaukee, WI}
-{Software Developer Intern}
-{September 2023 – May 2024}
-      \vspace{2pt}
-      \resumeItemListStart
+\vspace{2.5pt}
+\resumeItemListStart
+  \setlength{\itemsep}{5pt}
+  \setlength{\parskip}{2pt}
+  \setlength{\parsep}{2pt}
+  \setlength{\topsep}{2pt}
+  \resumeItem{Developed and maintained full-stack web applications using JavaScript frameworks, contributing features from frontend UI through backend services in an Agile team environment}
+  \resumeItem{Conducted code reviews and implemented testing protocols to ensure software reliability --- applying the same quality-verification mindset used in hardware deployment and validation workflows}
 
-\resumeItem{Developed and maintained full-stack web applications using JavaScript frameworks to support music collaboration}
-\resumeItem{Built and integrated RESTful APIs to enhance platform interoperability and improve backend performance}
-\resumeItem{Participated in agile sprints and cross-functional meetings to plan and execute product updates in collaboration with design and marketing teams}
-\resumeItem{Conducted code reviews and implemented testing protocols to ensure software reliability and maintainability}
+\resumeItemListEnd
 
-  \resumeItemListEnd  
 
   
 
